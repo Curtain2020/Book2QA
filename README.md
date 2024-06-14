@@ -21,16 +21,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-Follow these steps to run the project:
+This project consists of several scripts that automate various tasks. The primary scripts included are:
 
-1. **Data Preparation**: Ensure your data is formatted correctly as per the guidelines in `data/README.md`.
-2. **Run Question Generation**:
-    ```python
-    python generate_and_merge_questions.py
-    ```
-3. **Run Answer Generation**:
-    ```python
-    python generate_best_answers.py
+- `run_generate_best_answers.sh`: Generates the best answers using a Python script.
+- `run_generation_and_merge.sh`: Generates and merges questions using a Python script.
+- `run_ifd_calculation.sh`: Calculates IFD and filters results using a Python script.
+
+### Requirements
+
+This project uses a virtual environment to manage dependencies. All required packages are listed in the `requirements.txt` file. To set up the virtual environment and install all dependencies, please follow the instructions below.
     ```
 
 ## Contributing
