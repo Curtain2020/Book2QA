@@ -12,11 +12,11 @@ The Book2QA project integrates multiple medium-scale language models to generate
 
 Clone the repository and install the necessary dependencies:
 
-\`\`\`bash
+```bash
 git clone https://github.com/Curtain2020/Book2QA
 cd Book2QA
 pip install -r requirements.txt
-\`\`\`
+```
 
 ## Usage
 
@@ -24,13 +24,13 @@ Follow these steps to run the project:
 
 1. **Data Preparation**: Ensure your data is formatted correctly as per the guidelines in `data/README.md`.
 2. **Run Question Generation**:
-    \`\`\`python
+    ```python
     python generate_and_merge_questions.py
-    \`\`\`
+    ```
 3. **Run Answer Generation**:
-    \`\`\`python
+    ```python
     python generate_best_answers.py
-    \`\`\`
+    ```
 
 ## Contributing
 
@@ -44,14 +44,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 If you use this work in your research, please cite:
 
-\`\`\`bibtex
+```bibtex
 @inproceedings{book2qa2024,
   title={Book2QA: A Framework for Integrating LLMs to Generate High-quality QA Data from Textbooks},
   author={Anonymous},
   booktitle={EMNLP},
   year={2024}
 }
-\`\`\`
+```
 
 ## Acknowledgments
 
