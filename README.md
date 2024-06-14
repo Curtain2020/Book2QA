@@ -1,7 +1,7 @@
 # Book2QA: Enhancing Question-Answering with LLMs
 
 The Book2QA project integrates multiple medium-scale language models to generate high-quality question-answering data from textbooks.
-![Figure 1](./image/figure1.png)
+![Figure 1](./image/fingure1.png)
 
 ## Features
 
