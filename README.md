@@ -57,4 +57,3 @@ If you use this work in your research, please cite:
 ## Acknowledgments
 
 - Thanks to the contributors who have invested their time in improving the Book2QA framework.
-- Special thanks to [List any funders, institutions, or other acknowledgments].
