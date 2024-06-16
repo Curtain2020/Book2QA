@@ -39,7 +39,7 @@ Contributions to Book2QA are welcome! Please refer to `CONTRIBUTING.md` for more
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Citation
 
