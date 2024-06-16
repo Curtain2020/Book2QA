@@ -6,7 +6,7 @@ The Book2QA project integrates multiple medium-scale language models to generate
 ## Features
 
 - **Book Data Preprocessing**: Converts textbook content into a structured format for further processing.
-  We have saved the processed data in the dataset/book_cluster.json file. The clustering results of the summaries are stored in the clusters.json file, and the code for converting PDF files to JSON files is located in the **data_process** directory.
+ For the summaries and keywords, we used ChatGPT to generate them. We have saved the processed data in the dataset/book_cluster.json file. The clustering results of the summaries are stored in the clusters.json file, and the code for converting PDF files to JSON files is located in the **data_process** directory.
 - **Question Generation and Filtering**: Generates diverse questions using LLMs, followed by filtering to enhance quality.
 - **Answer Generation and Filtering**: Produces and refines answers using a fine-tuned model, ensuring relevance and clarity.
 
