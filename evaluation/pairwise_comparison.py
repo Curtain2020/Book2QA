@@ -14,7 +14,7 @@ client = OpenAI(
 def generate_instruction(question, assistant1, assistant2):
     # Generate the instruction prompt based on provided question and answers from assistants
     instruction = ('#instruction\n'
-                   'As an assistant responsible for assessing answer quality, you need to provide helpful and precise feedback.\n\n'
+                   '你是一位负责检查答案质量的助手，需提供有帮助且精确的反馈。\n\n'
                    '#问题#\n'
                    '{}\n\n'
                    '#答案#\n'
@@ -24,7 +24,7 @@ def generate_instruction(question, assistant1, assistant2):
                    '[助手1答案的开始]\n'
                    '{}\n'
                    '[助手1答案的结束]\n\n'
-                   'We want you to provide feedback on the performance of the two AI assistants shown above. Your evaluation should consider factors such as helpfulness, relevance, accuracy, depth, creativity, and level of detail. Each assistant receives an overall score from 1 to 5, where higher scores indicate better overall performance. Please first output a single line containing only the scores for assistant 1 and assistant 2, separated by a space. On subsequent lines, provide a comprehensive assessment that avoids any potential biases and ensures the order of your responses does not affect judgment.\n').format(question, assistant2, assistant1)
+                   '我们希望你对上面显示问题的两个AI助手的表现提供反馈。你的评价应考虑到诸如帮助性、相关性、准确性、深度、创造力和详细程度等因素。每个助手的总体得分为1到5分，分数越高表示整体表现越好。请首先输出一行，仅包含助手1和助手2的分数，分别以空格分隔。在随后的行中，请提供评估的综合解，避免任何潜在的偏见，并确保回答的顺序不会影响判断。\n').format(question, assistant2, assistant1)
     return instruction
 
 def call_with_messages(instruction):
