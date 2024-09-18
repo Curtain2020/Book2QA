@@ -49,7 +49,6 @@ If you use this work in your research, please cite:
 @inproceedings{book2qa2024,
   title={Book2QA: A Framework for Integrating LLMs to Generate High-quality QA Data from Textbooks},
   author={Anonymous},
-  booktitle={EMNLP},
   year={2024}
 }
 ```
