@@ -38,17 +38,6 @@ This project uses a virtual environment to manage dependencies. All required pac
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@inproceedings{book2qa2024,
-  title={Book2QA: A Framework for Integrating LLMs to Generate High-quality QA Data from Textbooks},
-  author={Anonymous},
-  year={2024}
-}
-```
 
 ## Acknowledgments
 
