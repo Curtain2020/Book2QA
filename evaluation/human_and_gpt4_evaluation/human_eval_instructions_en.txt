@@ -1,0 +1,12 @@
+You are about to begin a task in which you will evaluate the response effectiveness of three different models for specific questions. This evaluation should take approximately 2 hours, and you should only start the assessment if you can fully commit to it. The base pay is 50 yuan per hour. Once you have completed the evaluation, we will review the work, and if the quality is satisfactory, we will grant a discretionary bonus of 10%. We ask that you carefully read the original text and rank each summary according to the metrics defined below.
+
+Relevance: This assesses the degree to which the answer is related to the question asked. The answer should only contain important information from the source document. Please penalize answers that contain redundancies and excessive information. Please give a score from 1-5 based on the fit between the answer and the question, with 1 representing not relevant at all and 5 representing highly relevant.
+
+Accuracy: This assesses the accuracy or factual correctness of the answer. Please give a score from 1-5 based on the correctness of the answer, with 1 representing completely inaccurate and 5 representing completely accurate.
+
+Helpfulness: This assesses the degree to which the answer helps you understand or solve the problem. Please give a score from 1-5 based on the practicality and helpfulness of the answer, with 1 representing not helpful and 5 representing extremely helpful.
+
+Following each question, there will be answers from three models. Please score each answer based on the three dimensions mentioned above. Your feedback is very important to us for improving the models.
+
+Note: Please take a screenshot of this page for future reference, as you may not be able to access it again once you start the evaluation.
+
