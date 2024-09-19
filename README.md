@@ -33,9 +33,6 @@ This project consists of several scripts that automate various tasks. The primar
 This project uses a virtual environment to manage dependencies. All required packages are listed in the `requirements.txt` file. To set up the virtual environment and install all dependencies, please follow the instructions below.
     ```
 
-## Contributing
-
-Contributions to Book2QA are welcome! Please refer to `CONTRIBUTING.md` for more details on how to submit pull requests, report issues, or make feature requests.
 
 ## License
 
